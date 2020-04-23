@@ -1,5 +1,5 @@
 {
-	"homepage": "http://dungbiuit.github.io/socketIO"
+  "homepage": "http://dungbiuit.github.io/socketIO",
   "name": "master_hao",
   "version": "0.1.0",
   "private": true,
@@ -16,8 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "lint": "eslint"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,6 +36,10 @@
     ]
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
     "gh-pages": "^2.2.0"
   }
 }
